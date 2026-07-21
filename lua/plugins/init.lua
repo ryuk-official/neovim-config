@@ -1,0 +1,7 @@
+require("plugins.colorscheme")
+require("plugins.treesitter")
+require("plugins.blink")
+require("plugins.lazygit")
+require("plugins.undotree")
+require("plugins.telescope")
+require("plugins.conform")
