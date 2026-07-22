@@ -11,7 +11,7 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 vim.keymap.set('n', "<leader>fh", builtin.help_tags, {})
 vim.keymap.set(
   'n',
-  "<S-h>",
+  "<leader>fb",
   "<cmd>Telescope buffers sort_mru=true sort_lastused=true initial_mode=normal<cr>",
   { desc = "[P]Open telescope buffers" }
 )

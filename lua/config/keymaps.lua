@@ -210,3 +210,9 @@ map("n", "<leader>tw", "<cmd>set wrap!<CR>", { desc = "Toggle Wrap", silent = tr
 
 -- Fix spelling (picks first suggestion)
 map("n", "z0", "1z=", { desc = "Fix word under cursor" })
+
+-- Native terminal keybinds
+map("t", '<Esc>', [[<C-\><C-n>]], { desc = "Exit terminal mode" })
+
+map("n", '<leader>tv', ':vsplit | term<CR>a', { desc = "Open terminal on side" })
+map("n", '<leader>th', ':split | term<CR>a', { desc = "Open terminal on bottom" })
